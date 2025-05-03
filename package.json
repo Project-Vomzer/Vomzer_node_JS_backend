@@ -1,0 +1,25 @@
+{
+  "name": "vomzer_nodejs_backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.40.0",
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.6.0",
+    "socket.io": "^4.7.2",
+    "dotenv": "^16.0.3",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
